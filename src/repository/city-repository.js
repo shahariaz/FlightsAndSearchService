@@ -32,5 +32,13 @@ class CityRepository {
       throw { error };
     }
   }
+  async updateCity({ name, id }) {
+    try {
+      const city = await City.update({ name }, { where: { id } });
+      return city;
+    } catch (error) {
+      throw { error };
+    }
+  }
 }
 module.exports = CityRepository;
