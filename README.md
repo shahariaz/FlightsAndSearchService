@@ -2,15 +2,16 @@
 
 ## Project Setup
 
--clone the project on your local filesystem
+- Clone the project on your local filesystem
 
--Execute `npm install` on the same path as your root directory of the downloaded project
+- Execute `npm install` on the same path as your root directory of the downloaded project
 
--Create a `.env` file in the root directory and add the
+- Create a `.env` file in the root directory and add the
 
-following environment variables -`PORT=3000`
+following environment variables 
+    - `PORT=3000`
 
--Inside the `src/config` folder create a new file `config.json` and then add the following piece of JSON
+- Inside the `src/config` folder create a new file `config.json` and then add the following piece of JSON
 
 ```
 {
